@@ -1,0 +1,64 @@
+Idea proyecto:
+-Crear pagina que permina crear usuario/logiar.
+Y una vez logiado permita al usuario guardar cosas en una base de datos
+
+Y termina acceder a esta base de datos a leer los datos,
+ademas de permitir a otros usuarios ver datos publicos de otros usuarios.
+
+PASOS:
+xAgregar CSS
+xCrear Template registro
+xCrear modelo registro
+xCrear Database
+xVincularla
+xVincular Registro a Database
+xCrear Template Login/LogOut
+xCrear modelo Login/LogOut
+xAgregar HTML Login/Logout dependiendo
+xCrear tabla guardar datos
+xPensar como organizar tablas y datos y acceder a ellos
+xAgregar modelo lista: Actividad y Publica?
+xAgregar Add a lista
+xAgregar Delete de lista
+xAgregar mirar mi lista
+xAgregar Mirar lista de otros usuarios publicas
+x-Hermosear
+xAgregar que mande mensajes cuando falla register/login/logout/delete
+
+-Pensar mas cosas:
+xHacer que formularios mantengan info
+xHTML grid ver cosas(cosa-precio-link)
+xModel grid cosas
+xView grid ver cosas
+xView grid añadir cosas
+xView grid delete cosas
+xAgregar W3 y agregar a Grid
+xCSS grid table
+xCSS cajitas colores para "messages"
+xHacer que add tenga de requisito tener 2 weas llenas
+xHacer que delete grid pida confirmacion
+xagregar edit en views/url/HTML
+xAgregar filtro busqueda
+xAgregar mini info al pasar mouse
+/Agregar filtro de precio
+xAgregar orden por precio
+xMejorar filtro busqueda con trigram_similar
+xMejorar filtro de busqueda para unir busquedas
+xReorganizar carpetas y mover list y grid a otra con "startapp"
+xCambiar CSS style antiguo por W3 en pantalla principal
+xHacer ver pagina como aulafacil
+xhacer que tire 404 en caso de /asdjfkldasjf
+
+xAgregar Aleman/Programacion
+xCon Show All y show one (hidden)
+xHacer que botones de Idiomas esten en horizontal
+xEvaluar palabras ingresadas
+xArreglar bug de value para evaluadas
+xfixmini bugs
+/Guardador de Vecesc hecho
+/Promedio de acertadas
+xTerminar explicacion pagina
+xArreglar posicion evaluar
+
+FINAL:
+xCambiar contraseñas y todo a system

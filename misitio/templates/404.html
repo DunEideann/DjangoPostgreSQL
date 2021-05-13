@@ -1,0 +1,18 @@
+{% extends 'basew3.html' %}
+
+{% block content %}
+    <div class="w3-container w3-teal">
+    <h1 clas="w3-title w3-xxxlarge"> 404 Page not found!</h1>
+    </div>
+    <div class="w3-bar w3-center w3-dark-grey w3-border w3-border-dark-grey">
+        <a class="w3-button w3-xlarge w3-bar-item material-icons" href="/" >home</a>
+        {% if user.is_authenticated %}
+            <a class="w3-button w3-large w3-bar-item" href="/list">See ToDo List</a>
+            <a class="w3-button w3-large w3-bar-item" href="/grid_list">See Grid</a>
+            <a class="w3-button w3-large w3-bar-item" href="/logout">Log Out</a>
+        {% else %}
+            <a class="w3-button w3-large w3-bar-item" href="/register">Registrarse</a>
+            <a class="w3-button w3-large w3-bar-item" href="/login">Log In</a>
+        {% endif %}
+    </div>
+{% endblock %}
